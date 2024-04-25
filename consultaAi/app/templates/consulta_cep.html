@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ConsultaAi</title>
+</head>
+<body>
+    <h1>ConsultaAi</h1>
+    <form action="" method="GET">
+        <label>Cep:
+            <input name="cep" type="text" id="cep" value="{{ cep }}" size="10" maxlength="9" />
+        <button type="submit">Consultar</button>
+        <br>
+        <label for="rua">Rua:</label>
+        <input type="text" id="rua" name="rua" value="{{ rua }}">
+        <br>
+        <label for="bairro">Bairro:</label>
+        <input type="text" id="bairro" name="bairro" value="{{ bairro }}">
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" value="{{ cidade }}">
+        <br>
+        <label for="uf">UF:</label>
+        <input type="text" id="uf" name="uf" value="{{ uf }}">
+        <br>
+        <label for="ibge">IBGE:</label>
+        <input type="text" id="ibge" name="ibge" value="{{ ibge }}">
+    </form>
+</body>
+</html>
